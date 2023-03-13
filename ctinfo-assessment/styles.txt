@@ -1,0 +1,16 @@
+Here is a small style guide for this assessment, please attempt to use this guide for all design decisions made.
+
+Fonts:
+H1 = Roboto Black, 50px
+H2 = Roboto Medium, 18px
+Body = Roboto Regular, 15px
+
+Colors:
+Background = #FFFFFF
+Background secondary = #F3F3F3
+Font Primary = #000000
+Font Secondary = #979FA0
+Blue = #009BE9
+Green = #8CC928
+
+For all margins and spacing, us multiples of 12px (12px, 24px, 48px, etc.)
