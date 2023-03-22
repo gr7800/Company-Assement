@@ -1,0 +1,96 @@
+.bookingBgImage {
+    background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%) !important;
+
+}
+
+.bookingTitle {
+    height: 400px;
+    background-image: url('../../assets/bookingImages/bookingBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.images {
+    width: 540.9px;
+    text-align: center;
+    margin: auto;
+}
+
+.images {
+    background-image: url('../../assets/bookingImages/Ellipse\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.mapBg {
+
+    background-image: url('../../assets/bookingImages/world_map_PNG28\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.pageTitle {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #3A3A3A;
+    padding-top: 175px
+}
+
+.label {
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin: 32px 0;
+    color: #000000;
+
+}
+
+.input_box {
+
+    background: #FFFFFF;
+    /* primary-color */
+    width: 500px;
+    border: 2px solid #3282AD;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.findBooking {
+    background: #3282AD;
+    border-radius: 10px;
+    padding: 16px 64px;
+    color: #fff;
+    font-weight: 700;
+    /* width: 390px; */
+    width: 75%;
+    text-align: center;
+    align-items: start;
+    display: block;
+    margin-top: 32px;
+
+}
+
+@media screen and (max-width:768px) {
+    .bookingSection {
+        order: 2;
+    }
+
+    .images {
+        width: 274.5px;
+
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bookingSection {
+        display: none;
+    }
+}

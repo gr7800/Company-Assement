@@ -1,0 +1,61 @@
+.testmonialTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    margin: 98px 0 74px;
+    color: #3A3A3A;
+}
+
+.reviewCard {
+    height: 524px;
+    max-width: 393px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(50, 130, 173, 0.15);
+    border-radius: 15px;
+    padding: 21px;
+}
+
+.location {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+
+    color: #555555;
+
+}
+
+.reviewDesc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #5A5A5A;
+    padding: 60px 10px 20px;
+}
+
+@media screen and (max-width:768px) {
+    .reviewCard {
+        height: 524px;
+        width: 337px;
+        padding: 18px;
+
+    }
+
+}
+
+
+@media screen and (max-width:450px) {
+
+
+    .reviewCard {
+        height: 524px;
+    }
+
+}

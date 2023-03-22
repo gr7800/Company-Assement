@@ -1,0 +1,186 @@
+.bg-Color {
+    background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%) !important;
+}
+
+.supportBgImage {
+    background-image: url('../../assets/support/Vector.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    height: 600px;
+}
+
+.descriptions {
+    padding-bottom: 45px;
+}
+
+.searchBtn {
+    background-color: #3282AD;
+    padding: 12px;
+    gap: 16px;
+    color: #fff;
+    width: 60.67px;
+    height: 66px;
+
+}
+
+.acrodinoTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #3A3A3A;
+}
+
+.textColor {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3A3A3A;
+}
+
+.shadows {
+    background: #FFFFFF;
+    /* primary-color */
+
+    border: 0.5px solid #3282AD;
+    box-shadow: 0px 15px 50px rgba(50, 130, 173, 0.05);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* *********************** */
+/* accordion buttons */
+/* *********************** */
+
+
+.accordion-button::after {
+    background-image: none;
+    content: '+' !important;
+    color: #3282AD;
+    font-size: 30px;
+}
+
+
+/* *********************** */
+/* get in tuch section design */
+/* *********************** */
+.questionsSection {
+    background: #F7FDFF;
+    margin-top: 64px;
+}
+
+.getIn {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3A3A3A;
+    padding: 40px 0 16px;
+}
+
+.questionsSection .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5A;
+
+}
+
+.touchBtn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #3282AD;
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.box {
+    position: relative;
+}
+
+.sectionImages {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 170px;
+}
+
+.imagesBg {
+
+    background-image: url('../../assets/bookingImages/Ellipse\ 4.png');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 150px;
+    /* height: 600px; */
+
+
+}
+
+
+/* support section design */
+.BackgroundColor {
+    background-image: url('../../assets/map.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.BackgroundColor {
+    background: #3282AD;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 88px;
+}
+
+.BackgroundColor h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.BackgroundColor p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 72px;
+}
+
+.contrctform {
+    margin-top: 88px;
+}
+
+.input_Box {
+    border: 1px solid #A2A8AB;
+    min-height: 57px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.submitBtn {
+    width: 136px;
+    height: 60px;
+    background: #3282AD;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+}
+
+
+
+@media screen and (max-width:450px) {
+    .orderOne {
+        order: 2;
+
+    }
+}

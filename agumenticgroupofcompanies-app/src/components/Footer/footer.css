@@ -1,0 +1,188 @@
+.accordion {
+    display: none;
+}
+
+.blackSection {
+    width: 90%;
+    width: calc(100% - 70px);
+    text-align: center;
+    margin: 0 auto;
+    height: 311.13px;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.image {
+    background-image: url('../../assets/footerCercel.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px !important;
+}
+
+.desc {
+    padding: 37px 0 0 56px;
+
+}
+
+.footerTitle {
+    font-weight: 700;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.footerButton {
+    background-color: #1A6892;
+    border: 2px solid #D0D0D0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 70px;
+    width: 213.01px;
+}
+
+.logo {
+    width: 37px;
+}
+
+.footrMobile {
+    margin-top: -50px;
+}
+
+
+.socialSection {
+    background: #41A5C1;
+    margin-top: -150px;
+    background-image: url('../../assets/mapImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.footerConatiner {
+    position: absolute;
+    width: 100%;
+}
+
+.blackpart {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.socialLinks {
+    padding-top: 170px;
+    text-align: start;
+    width: 1366px;
+    margin: 0 auto;
+    color: #fff;
+    /* max-width: 1200px; */
+}
+
+.icons {
+    margin: 80px 0 50px;
+}
+
+.footerDescription {
+    padding-top: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.socialLinks p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 90%;
+    margin: 50px auto 0;
+    color: #fff !important;
+}
+
+.warning {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 40px 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:768px) {
+
+    .socialLinks {
+        padding: auto 60px;
+    }
+
+    .socialSection {
+        width: 100%;
+
+    }
+
+    .socialLinks {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .blackSection {
+        height: auto
+    }
+
+    .desc {
+        padding: 12px;
+    }
+
+    .formobile {
+        display: flex;
+    }
+
+    .footerTitle {
+        font-size: 24px;
+    }
+
+    .footrMobile {
+        display: none;
+    }
+
+    .footerButton {
+        margin-top: 20px;
+        width: 150px;
+        padding: 8px;
+    }
+
+    .logo {
+        width: 20px;
+        margin-top: 10px;
+    }
+
+    .socialSection {
+        margin-top: -60px;
+    }
+
+    .mobileHeight {
+        display: none;
+    }
+
+
+
+    .socialLinks {
+
+        max-width: 400px;
+    }
+
+    .socialSection {
+
+        width: 400;
+    }
+
+    .accordion {
+        display: block;
+    }
+
+}

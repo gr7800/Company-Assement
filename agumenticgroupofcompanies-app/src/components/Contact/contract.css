@@ -1,0 +1,56 @@
+.contact {
+    background-image: url('../../assets/world_map.png');
+    /* opacity: 0.9; */
+    z-index: 10;
+    /* height: 200px; */
+
+}
+
+.bgImage {
+    background-image: url('../../assets/world_map.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    right: 50px;
+
+}
+
+.contact {
+    padding: 32px;
+}
+
+.contactBtn {
+    z-index: 2;
+    color: rgb(9, 0, 0);
+    background: #ffffff;
+}
+
+.contactTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    margin-bottom: 32px;
+}
+
+.contactDesc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+}
+
+.contactBtn {
+    padding: 15px 36px;
+    width: 183px;
+    border-radius: 8px;
+    margin-top: 120px;
+
+}
+
+@media screen and (max-width:450px) {
+    .contactBtn {
+        margin-top: 70px;
+    }
+
+}

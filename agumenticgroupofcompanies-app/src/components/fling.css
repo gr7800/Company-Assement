@@ -1,0 +1,31 @@
+.flightSection {
+    /* max-width: 1366px; */
+    /* margin: 0 auto; */
+    /* padding: 0 70px; */
+}
+
+.boxShadow {
+    padding: 14px 24px;
+    box-shadow: 0px 5px 5px #8f7474;
+
+}
+
+.flingTitle {
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 14px 0 24px 0px;
+}
+
+.flightButton {
+    padding: 8px 16px;
+    width: 144px;
+    height: 48px;
+    border: none;
+    background: #3282AD;
+    border-radius: 4px;
+    color: #fff;
+}
